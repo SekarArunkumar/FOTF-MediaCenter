@@ -19,10 +19,10 @@ public class Homepage extends Basedriver{
 	@Test
 	public static void fotf_channel(){
 
-		homepage.channel_url();
-		Driver.quit();
+		channelObj=homepage.channel_url();
 		
 	}
+	
 	
 	
 }

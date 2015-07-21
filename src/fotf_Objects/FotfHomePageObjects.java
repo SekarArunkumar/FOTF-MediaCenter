@@ -44,12 +44,24 @@ public class FotfHomePageObjects {
 		lifechallenges.click();
 		faith.click();
 		social.click();
-		prolife.click();
+		//prolife.click();
 		
 		return new FotfChannelPageobjects();
 	}
+	// Secondary_nav Object
+	@FindBy(xpath=".//*[@id='main_nav']/ul[1]/li[1]/a")
+	public static WebElement todaysbroadcast;
+	@FindBy(xpath=".//*[@id='main_nav']/ul[1]/li[2]/a")
+	public static WebElement familyhelp;
+	@FindBy(xpath=".//*[@id='main_nav']/ul[1]/li[3]/a")
+	public static WebElement about;
+	@FindBy(xpath=".//*[@id='main_nav']/ul[1]/li[4]/a")
+	public static WebElement store;
 	
 	public static void secondary_nav(){
-		
+		todaysbroadcast.click();
+		/*familyhelp.click();
+		about.click();
+		store.click();*/
 	}
 }

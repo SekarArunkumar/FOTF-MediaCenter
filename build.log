@@ -4,9 +4,11 @@ init:  duration 0 seconds
 clean:
    [delete] Deleting directory D:\Projects\FOTF-MediaCenter\build
    [delete] Deleting D:\Projects\FOTF-MediaCenter\build\fotf_Config\Basedriver.class
-   [delete] Deleting D:\Projects\FOTF-MediaCenter\build\fotf_Config\FotfObjects.class
-   [delete] Deleting D:\Projects\FOTF-MediaCenter\build\fotf_Config\Marriageobjects.class
    [delete] Deleting directory D:\Projects\FOTF-MediaCenter\build\fotf_Config
+   [delete] Deleting D:\Projects\FOTF-MediaCenter\build\fotf_Objects\FotfChannelPageobjects.class
+   [delete] Deleting D:\Projects\FOTF-MediaCenter\build\fotf_Objects\FotfHomePageObjects.class
+   [delete] Deleting directory D:\Projects\FOTF-MediaCenter\build\fotf_Objects
+   [delete] Deleting D:\Projects\FOTF-MediaCenter\build\fotf_Testcase\Channelpage.class
    [delete] Deleting D:\Projects\FOTF-MediaCenter\build\fotf_Testcase\Homepage.class
    [delete] Deleting directory D:\Projects\FOTF-MediaCenter\build\fotf_Testcase
    [delete] Deleting directory D:\Projects\FOTF-MediaCenter\build
@@ -19,8 +21,9 @@ compile:
      [echo] classpath------: D:\Projects\FOTF-MediaCenter\src\lib_Files\apache-mime4j-0.6.jar:D:\Projects\FOTF-MediaCenter\src\lib_Files\bsh-1.3.0.jar:D:\Projects\FOTF-MediaCenter\src\lib_Files\cglib-nodep-2.1_3.jar:D:\Projects\FOTF-MediaCenter\src\lib_Files\commons-codec-1.10.jar:D:\Projects\FOTF-MediaCenter\src\lib_Files\commons-collections-3.2.1.jar:D:\Projects\FOTF-MediaCenter\src\lib_Files\commons-exec-1.3.jar:D:\Projects\FOTF-MediaCenter\src\lib_Files\commons-io-2.4.jar:D:\Projects\FOTF-MediaCenter\src\lib_Files\commons-lang3-3.4.jar:D:\Projects\FOTF-MediaCenter\src\lib_Files\commons-logging-1.1.3.jar:D:\Projects\FOTF-MediaCenter\src\lib_Files\cssparser-0.9.16.jar:D:\Projects\FOTF-MediaCenter\src\lib_Files\gson-2.3.1.jar:D:\Projects\FOTF-MediaCenter\src\lib_Files\guava-18.0.jar:D:\Projects\FOTF-MediaCenter\src\lib_Files\hamcrest-core-1.3.jar:D:\Projects\FOTF-MediaCenter\src\lib_Files\hamcrest-library-1.3.jar:D:\Projects\FOTF-MediaCenter\src\lib_Files\htmlunit-2.17.jar:D:\Projects\FOTF-MediaCenter\src\lib_Files\htmlunit-core-js-2.17.jar:D:\Projects\FOTF-MediaCenter\src\lib_Files\httpclient-4.4.1.jar:D:\Projects\FOTF-MediaCenter\src\lib_Files\httpcore-4.4.1.jar:D:\Projects\FOTF-MediaCenter\src\lib_Files\httpmime-4.4.1.jar:D:\Projects\FOTF-MediaCenter\src\lib_Files\jcommander-1.29.jar:D:\Projects\FOTF-MediaCenter\src\lib_Files\jetty-io-9.2.11.v20150529.jar:D:\Projects\FOTF-MediaCenter\src\lib_Files\jetty-util-9.2.11.v20150529.jar:D:\Projects\FOTF-MediaCenter\src\lib_Files\jna-4.1.0.jar:D:\Projects\FOTF-MediaCenter\src\lib_Files\jna-platform-4.1.0.jar:D:\Projects\FOTF-MediaCenter\src\lib_Files\junit-dep-4.11.jar:D:\Projects\FOTF-MediaCenter\src\lib_Files\nekohtml-1.9.22.jar:D:\Projects\FOTF-MediaCenter\src\lib_Files\netty-3.5.7.Final.jar:D:\Projects\FOTF-MediaCenter\src\lib_Files\phantomjsdriver-1.2.1.jar:D:\Projects\FOTF-MediaCenter\src\lib_Files\sac-1.3.jar:D:\Projects\FOTF-MediaCenter\src\lib_Files\selenium-java-2.46.0-srcs.jar:D:\Projects\FOTF-MediaCenter\src\lib_Files\selenium-java-2.46.0.jar:D:\Projects\FOTF-MediaCenter\src\lib_Files\serializer-2.7.2.jar:D:\Projects\FOTF-MediaCenter\src\lib_Files\testng-6.8.5.jar:D:\Projects\FOTF-MediaCenter\src\lib_Files\websocket-api-9.2.11.v20150529.jar:D:\Projects\FOTF-MediaCenter\src\lib_Files\websocket-client-9.2.11.v20150529.jar:D:\Projects\FOTF-MediaCenter\src\lib_Files\websocket-common-9.2.11.v20150529.jar:D:\Projects\FOTF-MediaCenter\src\lib_Files\xalan-2.7.2.jar:D:\Projects\FOTF-MediaCenter\src\lib_Files\xercesImpl-2.11.0.jar:D:\Projects\FOTF-MediaCenter\src\lib_Files\xml-apis-1.4.01.jar
      [echo] compiling...
     [javac] fotf_Config\Basedriver.java added as fotf_Config\Basedriver.class doesn't exist.
-    [javac] fotf_Config\FotfObjects.java added as fotf_Config\FotfObjects.class doesn't exist.
-    [javac] fotf_Config\Marriageobjects.java added as fotf_Config\Marriageobjects.class doesn't exist.
+    [javac] fotf_Objects\FotfChannelPageobjects.java added as fotf_Objects\FotfChannelPageobjects.class doesn't exist.
+    [javac] fotf_Objects\FotfHomePageObjects.java added as fotf_Objects\FotfHomePageObjects.class doesn't exist.
+    [javac] fotf_Testcase\Channelpage.java added as fotf_Testcase\Channelpage.class doesn't exist.
     [javac] fotf_Testcase\Homepage.java added as fotf_Testcase\Homepage.class doesn't exist.
     [javac] D:\Projects\FOTF-MediaCenter\src\lib_Files\apache-mime4j-0.6.jar skipped - don't know how to handle it
     [javac] D:\Projects\FOTF-MediaCenter\src\lib_Files\bsh-1.3.0.jar skipped - don't know how to handle it
@@ -61,7 +64,7 @@ compile:
     [javac] D:\Projects\FOTF-MediaCenter\src\lib_Files\xalan-2.7.2.jar skipped - don't know how to handle it
     [javac] D:\Projects\FOTF-MediaCenter\src\lib_Files\xercesImpl-2.11.0.jar skipped - don't know how to handle it
     [javac] D:\Projects\FOTF-MediaCenter\src\lib_Files\xml-apis-1.4.01.jar skipped - don't know how to handle it
-    [javac] Compiling 4 source files to D:\Projects\FOTF-MediaCenter\build
+    [javac] Compiling 5 source files to D:\Projects\FOTF-MediaCenter\build
     [javac] Using modern compiler
     [javac] 
     [javac]           WARNING
@@ -86,33 +89,36 @@ The ' characters around the executable and arguments are
 not part of the command.
     [javac] Files to be compiled:
     D:\Projects\FOTF-MediaCenter\src\fotf_Config\Basedriver.java
-    D:\Projects\FOTF-MediaCenter\src\fotf_Config\FotfObjects.java
-    D:\Projects\FOTF-MediaCenter\src\fotf_Config\Marriageobjects.java
+    D:\Projects\FOTF-MediaCenter\src\fotf_Objects\FotfChannelPageobjects.java
+    D:\Projects\FOTF-MediaCenter\src\fotf_Objects\FotfHomePageObjects.java
+    D:\Projects\FOTF-MediaCenter\src\fotf_Testcase\Channelpage.java
     D:\Projects\FOTF-MediaCenter\src\fotf_Testcase\Homepage.java
     [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.7
     [javac] 1 warning
 compile:  duration 0 seconds
 
 run:
-   [testng] Executing 'C:\Program Files\Java\jre8\bin\java.exe' with arguments:
+   [testng] Executing 'C:\Program Files\Java\jdk1.8.0_25\jre\bin\java.exe' with arguments:
 '-ea'
 '-classpath'
 'D:\Projects\FOTF-MediaCenter\src\lib_Files\apache-mime4j-0.6.jar;D:\Projects\FOTF-MediaCenter\src\lib_Files\bsh-1.3.0.jar;D:\Projects\FOTF-MediaCenter\src\lib_Files\cglib-nodep-2.1_3.jar;D:\Projects\FOTF-MediaCenter\src\lib_Files\commons-codec-1.10.jar;D:\Projects\FOTF-MediaCenter\src\lib_Files\commons-collections-3.2.1.jar;D:\Projects\FOTF-MediaCenter\src\lib_Files\commons-exec-1.3.jar;D:\Projects\FOTF-MediaCenter\src\lib_Files\commons-io-2.4.jar;D:\Projects\FOTF-MediaCenter\src\lib_Files\commons-lang3-3.4.jar;D:\Projects\FOTF-MediaCenter\src\lib_Files\commons-logging-1.1.3.jar;D:\Projects\FOTF-MediaCenter\src\lib_Files\cssparser-0.9.16.jar;D:\Projects\FOTF-MediaCenter\src\lib_Files\gson-2.3.1.jar;D:\Projects\FOTF-MediaCenter\src\lib_Files\guava-18.0.jar;D:\Projects\FOTF-MediaCenter\src\lib_Files\hamcrest-core-1.3.jar;D:\Projects\FOTF-MediaCenter\src\lib_Files\hamcrest-library-1.3.jar;D:\Projects\FOTF-MediaCenter\src\lib_Files\htmlunit-2.17.jar;D:\Projects\FOTF-MediaCenter\src\lib_Files\htmlunit-core-js-2.17.jar;D:\Projects\FOTF-MediaCenter\src\lib_Files\httpclient-4.4.1.jar;D:\Projects\FOTF-MediaCenter\src\lib_Files\httpcore-4.4.1.jar;D:\Projects\FOTF-MediaCenter\src\lib_Files\httpmime-4.4.1.jar;D:\Projects\FOTF-MediaCenter\src\lib_Files\jcommander-1.29.jar;D:\Projects\FOTF-MediaCenter\src\lib_Files\jetty-io-9.2.11.v20150529.jar;D:\Projects\FOTF-MediaCenter\src\lib_Files\jetty-util-9.2.11.v20150529.jar;D:\Projects\FOTF-MediaCenter\src\lib_Files\jna-4.1.0.jar;D:\Projects\FOTF-MediaCenter\src\lib_Files\jna-platform-4.1.0.jar;D:\Projects\FOTF-MediaCenter\src\lib_Files\junit-dep-4.11.jar;D:\Projects\FOTF-MediaCenter\src\lib_Files\nekohtml-1.9.22.jar;D:\Projects\FOTF-MediaCenter\src\lib_Files\netty-3.5.7.Final.jar;D:\Projects\FOTF-MediaCenter\src\lib_Files\phantomjsdriver-1.2.1.jar;D:\Projects\FOTF-MediaCenter\src\lib_Files\sac-1.3.jar;D:\Projects\FOTF-MediaCenter\src\lib_Files\selenium-java-2.46.0-srcs.jar;D:\Projects\FOTF-MediaCenter\src\lib_Files\selenium-java-2.46.0.jar;D:\Projects\FOTF-MediaCenter\src\lib_Files\serializer-2.7.2.jar;D:\Projects\FOTF-MediaCenter\src\lib_Files\testng-6.8.5.jar;D:\Projects\FOTF-MediaCenter\src\lib_Files\websocket-api-9.2.11.v20150529.jar;D:\Projects\FOTF-MediaCenter\src\lib_Files\websocket-client-9.2.11.v20150529.jar;D:\Projects\FOTF-MediaCenter\src\lib_Files\websocket-common-9.2.11.v20150529.jar;D:\Projects\FOTF-MediaCenter\src\lib_Files\xalan-2.7.2.jar;D:\Projects\FOTF-MediaCenter\src\lib_Files\xercesImpl-2.11.0.jar;D:\Projects\FOTF-MediaCenter\src\lib_Files\xml-apis-1.4.01.jar;D:\Projects\FOTF-MediaCenter\build'
 'org.testng.TestNG'
-'@C:\Users\Arun\AppData\Local\Temp\testng8996880372189506080'
+'@C:\Users\CST_KU~1\AppData\Local\Temp\testng506427188936678929'
 
 The ' characters around the executable and arguments are
 not part of the command.
    [testng] [TestNG] Running:
    [testng]   D:\Projects\FOTF-MediaCenter\testng.xml
    [testng] 
+   [testng] Featured image content is available
+   [testng] Jul 21, 2015 10:03:05 PM org.openqa.selenium.os.UnixProcess$SeleniumWatchDog destroyHarder
+   [testng] INFO: Command failed to close cleanly. Destroying forcefully (v2). org.openqa.selenium.os.UnixProcess$SeleniumWatchDog@312aa7c
    [testng] 
    [testng] ===============================================
    [testng] Suite
-   [testng] Total tests run: 3, Failures: 2, Skips: 0
+   [testng] Total tests run: 2, Failures: 0, Skips: 0
    [testng] ===============================================
    [testng] 
-   [testng] The tests failed.
-run:  duration 2 minutes 55 seconds
+run:  duration 15 seconds
 
 BUILD SUCCESSFUL
