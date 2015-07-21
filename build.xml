@@ -72,13 +72,16 @@
             srcdir="${test.src}" 
             target="1.7" 
             classpath="${test.classpath}"
+        	includeantruntime="false"
         >
         </javac>
       </target>
 
     <!-- build -->
-    <target name="build" depends="init">
-    </target>
+	<target name="build" depends="init" description="compiles the source">
+	        <javac srcdir="${src}" destdir="${bin}" includeantruntime="false" compiler="modern"/>
+	        <echo message="build completed"></echo>
+	    </target>
 
     <!-- run -->
     <target name="run" depends="compile">

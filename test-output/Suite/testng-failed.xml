@@ -5,7 +5,8 @@
     <classes>
       <class name="fotf_Testcase.Homepage">
         <methods>
-          <include name="basedriver"/>
+          <include name="fotf_channel"/>
+          <include name="config"/>
         </methods>
       </class> <!-- fotf_Testcase.Homepage -->
     </classes>
