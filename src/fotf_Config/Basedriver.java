@@ -22,6 +22,7 @@ public static Logger log = Logger.getLogger(Basedriver.class.getName());
 		Driver.get("http://www.focusonthefamily.com/");
 		homepage=new FotfHomePageObjects(Driver);
 		channelObj=new FotfChannelPageobjects(Driver);
+		System.out.println("Choose Driver");
 	}
 	
 }
