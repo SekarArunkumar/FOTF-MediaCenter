@@ -23,6 +23,7 @@ public static Logger log = Logger.getLogger(Basedriver.class.getName());
 		homepage=new FotfHomePageObjects(Driver);
 		channelObj=new FotfChannelPageobjects(Driver);
 		System.out.println("Choose Driver");
+		System.out.println("Test");
 	}
 	
 }
