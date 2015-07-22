@@ -41,5 +41,11 @@
 	<classpathentry kind="lib" path="D:/Projects/FOTF-MediaCenter/src/lib_Files/xalan-2.7.2.jar"/>
 	<classpathentry kind="lib" path="D:/Projects/FOTF-MediaCenter/src/lib_Files/xercesImpl-2.11.0.jar"/>
 	<classpathentry kind="lib" path="D:/Projects/FOTF-MediaCenter/src/lib_Files/xml-apis-1.4.01.jar"/>
+	<classpathentry kind="lib" path="D:/Projects/FOTF-MediaCenter/src/lib_Files/ant-apache-log4j.jar"/>
+	<classpathentry kind="lib" path="D:/Projects/FOTF-MediaCenter/src/lib_Files/ant-javamail-1.9.4.jar"/>
+	<classpathentry kind="lib" path="D:/Projects/FOTF-MediaCenter/src/lib_Files/saxon-8.7.jar"/>
+	<classpathentry kind="lib" path="D:/Projects/FOTF-MediaCenter/src/lib_Files/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="D:/Projects/FOTF-MediaCenter/src/lib_Files/SaxonLiaison.jar"/>
+	<classpathentry kind="lib" path="D:/Projects/FOTF-MediaCenter/src/lib_Files/activation.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

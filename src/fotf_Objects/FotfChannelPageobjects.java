@@ -7,8 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 
 public class FotfChannelPageobjects {
-public static String expected_featured_img="channel_featured--image";
-public static String actual_featured_img;
+
 	public FotfChannelPageobjects(){
 			
 	}
@@ -38,6 +37,9 @@ public static String actual_featured_img;
 	
 	// Verifying Featured Image content on channel page
 	public static void featuredimg(){
+		String expected_featured_img="channel_featured--image";
+		String actual_featured_img;
+		
 		actual_featured_img=featured_img.getAttribute("class");
 		try{
 			Assert.assertEquals(actual_featured_img, expected_featured_img);
