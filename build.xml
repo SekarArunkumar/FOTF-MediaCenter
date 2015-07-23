@@ -111,43 +111,35 @@
 	</path>
 	
 	<target name="email" >
-	       <java classname="util.SendMail" classpath="${test.dest}" classpathref="test.c" />
-    </target>
-	
-	<target name="makexsltreports" >
-	        <mkdir dir="${ws.home}/XSLT_Reports/output">
-	        </mkdir>
-
-	        <xslt in="${ng.result}/testng-results.xml" style="src/xslt/testng-results.xsl"
-	            out="${ws.home}/XSLT_Reports/output/index.html" classpathref="test.c" processor="SaxonLiaison" >
-
-	             <param name="testNgXslt.outputDir" expression="${ws.home}/XSLT_Reports/output/"/>
-	             <param name="testNgXslt.showRuntimeTotals" expression="true"/>
-
-
-	        </xslt>
+		       <java classname="util.SendMail" classpath="${test.dest}" classpathref="test.c" />
 	    </target>
-	
-	
+		
+		  <target name="makexsltreports">
+		        <mkdir dir="${ws.home}/XSLT_Reports/output"/>
 
-	<target name="sendMail" depends="makexsltreports">
-	<zip destfile="${ws.home}/XSLT_Reports/output.zip" basedir="${ws.home}/XSLT_Reports/output" />
-	<mail
-		tolist="smackduke@gmail.com"
-		from="arun86.sekar@gmail.com"
-		subject="Email subject"
-		mailhost="smtp.gmail.com"
-		mailport="465"
-		ssl="true"
-		user="arun86.sekar@gmail.com"
-		password="ArunKalai@143">
-		<attachments>
-		<fileset dir="${ws.home}/XSLT_Reports/">
-		<include name="**/*.zip"/>
-		</fileset>
-		</attachments>
-	</mail>
-	</target>
+		        <xslt in="${ng.result}/testng-results.xml" style="src/xslt/testng-results.xsl"
+		              out="${ws.home}/XSLT_Reports/output/index.html" classpathref="test.c" processor="SaxonLiaison">
+		            <param name="testNgXslt.outputDir" expression="${ws.home}/XSLT_Reports/output/"/>
+		            <param name="testNgXslt.showRuntimeTotals" expression="true"/>
+		        </xslt>
+		    </target>
+
+		<target name="sendMail" depends="makexsltreports">
+			<zip destfile="${ws.home}/XSLT_Reports/output.zip" basedir="${ws.home}/XSLT_Reports/output" />
+			
+			<mail
+				tolist="Annadurai.Somasundaram@fotf.org,Karthikbabu.Rajagopal@fotf.org,Maheswari.Srinivasan@cscloud.org,hemanathan.kumar@cscloud.org,arun.kumar@cscloud.org"
+				from="Arun.Kumar@cscloud.org"
+				subject="XSLT Reports for the FOTF Media Center Automation Sample Project"
+				mailhost="PEXCCAS01CS.mis.fotf.priv">
+				<attachments>
+				<fileset dir="${ws.home}/XSLT_Reports/">
+				<include name="**/*.zip"/>
+				</fileset>
+				</attachments>
+				</mail>
+			</target>
+		
 
 	
 </project>
