@@ -2,7 +2,7 @@
 <!DOCTYPE project [
 ]>
 
-<project name="PluggedIN.com" default="usage" basedir=".">  
+<project name="FOTF-MediaCenter" default="usage" basedir=".">  
 
 <!-- ========== Initialize Properties =================================== -->
     <property environment="env"/>    
