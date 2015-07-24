@@ -2,7 +2,7 @@
 <!DOCTYPE project [
 ]>
 
-<project name="FOTF-MediaCenter" default="usage" basedir=".">  
+<project name="FOTF-MediaCenter" default="usage" basedir="D:\Projects\FOTF-MediaCenter">  
 
 <!-- ========== Initialize Properties =================================== -->
     <property environment="env"/>    
