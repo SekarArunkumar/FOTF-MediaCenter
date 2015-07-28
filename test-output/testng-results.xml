@@ -1,20 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="22715" started-at="2015-07-21T10:31:41Z" finished-at="2015-07-21T10:32:04Z">
+  <suite name="Suite" duration-ms="57271" started-at="2015-07-28T12:01:39Z" finished-at="2015-07-28T12:02:37Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="22715" started-at="2015-07-21T10:31:41Z" finished-at="2015-07-21T10:32:04Z">
-      <class name="fotf_Testcase.Homepage">
-        <test-method status="PASS" signature="config()[pri:0, instance:fotf_Testcase.Homepage@725bef66]" name="config" is-config="true" duration-ms="191747" started-at="2015-07-21T15:58:30Z" finished-at="2015-07-21T16:01:41Z">
+    <test name="Test" duration-ms="57271" started-at="2015-07-28T12:01:39Z" finished-at="2015-07-28T12:02:37Z">
+      <class name="fotf_Testcase.Channelpage">
+        <test-method status="PASS" signature="config()[pri:0, instance:fotf_Testcase.Channelpage@1d251891]" name="config" is-config="true" duration-ms="5852" started-at="2015-07-28T17:31:34Z" finished-at="2015-07-28T17:31:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- config -->
-        <test-method status="PASS" signature="fotf_channel()[pri:0, instance:fotf_Testcase.Homepage@725bef66]" name="fotf_channel" duration-ms="22706" started-at="2015-07-21T16:01:41Z" finished-at="2015-07-21T16:02:04Z">
+        <test-method status="PASS" signature="verify_fotf_channel()[pri:0, instance:fotf_Testcase.Channelpage@1d251891]" name="verify_fotf_channel" duration-ms="30" started-at="2015-07-28T17:32:37Z" finished-at="2015-07-28T17:32:37Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- fotf_channel -->
+        </test-method> <!-- verify_fotf_channel -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:fotf_Testcase.Channelpage@1d251891]" name="closeDriver" is-config="true" duration-ms="698" started-at="2015-07-28T17:32:37Z" finished-at="2015-07-28T17:32:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- fotf_Testcase.Channelpage -->
+      <class name="fotf_Testcase.Homepage">
+        <test-method status="PASS" signature="click_fotf_channels()[pri:0, instance:fotf_Testcase.Homepage@19dfb72a]" name="click_fotf_channels" duration-ms="57076" started-at="2015-07-28T17:31:39Z" finished-at="2015-07-28T17:32:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_fotf_channels -->
+        <test-method status="PASS" signature="verify_fotf_logo()[pri:0, instance:fotf_Testcase.Homepage@19dfb72a]" name="verify_fotf_logo" duration-ms="137" started-at="2015-07-28T17:32:36Z" finished-at="2015-07-28T17:32:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_fotf_logo -->
       </class> <!-- fotf_Testcase.Homepage -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->

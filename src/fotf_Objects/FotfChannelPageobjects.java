@@ -6,7 +6,9 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 
-public class FotfChannelPageobjects {
+import fotf_Config.Basedriver;
+
+public class FotfChannelPageobjects extends Basedriver{
 
 	public FotfChannelPageobjects(){
 			
@@ -43,10 +45,10 @@ public class FotfChannelPageobjects {
 		actual_featured_img=featured_img.getAttribute("class");
 		try{
 			Assert.assertEquals(actual_featured_img, expected_featured_img);
-			System.out.println("Featured image content is available");
+			log.info("Featured image content is available");
 		}
 		catch(AssertionError e){
-			System.out.println("Featured image content is not available");
+			log.error("Featured image content is not available");
 		}
 	}
 	

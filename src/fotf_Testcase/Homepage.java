@@ -17,21 +17,21 @@ public class Homepage extends Basedriver{
 	
 	// Testcase for verifying FOTF Home page
 	@Test
-	public static void verify_fotf_home(){
+	public static void verify_fotf_logo(){
 		log.info("Testcase Execution starts for verify Operation on FOTF Home Page Content");
 		
 		homepage.home_logo();
 			
-		log.info("Testcase Execution Ends for verify Operation on FOTF Home Page Content");
+		
 	}
 	// Testcase for clicking FOTF Home page Objects
 	@Test
-	public static void click_fotf_home(){
-		log.info("Testcase Execution starts for click Operation on FOTF Home Page Content");
+	public static void click_fotf_channels(){
+		log.info("Testcase Execution starts for click Operation on FOTF Home Page Channel Content");
 		
 		channelObj=homepage.channel_url();
 		
-		log.info("Testcase Execution Ends for click Operation on FOTF Home Page Content");
+		
 	}
 	
 	
