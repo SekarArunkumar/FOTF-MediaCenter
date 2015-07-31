@@ -5,16 +5,11 @@
     <classes>
       <class name="fotf_Testcase.Channelpage">
         <methods>
+          <include name="closeDriver"/>
           <include name="verify_fotf_channel"/>
           <include name="config"/>
         </methods>
       </class> <!-- fotf_Testcase.Channelpage -->
-      <class name="fotf_Testcase.Homepage">
-        <methods>
-          <include name="click_fotf_channels"/>
-          <include name="verify_fotf_logo"/>
-        </methods>
-      </class> <!-- fotf_Testcase.Homepage -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

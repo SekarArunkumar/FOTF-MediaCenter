@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SeleniumJavaFramework">
+    <parameter name="sample1" value="Arun"/>
+    <parameter name="sample3" value="Hem"/>
+    <test name="testing">
+        <classes>
+        <class name="fotf_Config.Basedriver">
+            <methods>
+                <include name="sample1"/>
+                <include name="sample3"/>
+            </methods>
+    	   </class>
+          </classes>
+         </test>
+        </suite>

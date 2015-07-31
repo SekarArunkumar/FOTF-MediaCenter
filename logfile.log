@@ -262,3 +262,298 @@
 2015-07-28 17:32:37,139 INFO  [Basedriver] Featured image content is available 
 2015-07-28 17:32:37,179 INFO  [Basedriver] TestCase Execution Finished for FOTF Media Center Project 
 2015-07-28 17:32:37,179 INFO  [Basedriver] Closing Driver 
+2015-07-28 21:30:46,081 INFO  [Basedriver]   
+2015-07-28 21:30:46,082 INFO  [Basedriver] *******************************************************  
+2015-07-28 21:30:46,082 INFO  [Basedriver] TestCase Execution Starts for FOTF Media Center Project 
+2015-07-28 21:30:46,082 INFO  [Basedriver] *******************************************************  
+2015-07-28 21:30:46,082 INFO  [Basedriver]   
+2015-07-28 21:30:46,089 INFO  [Basedriver] Testcase Execution starts for click Operation on FOTF Home Page Channel Content 
+2015-07-28 21:30:46,309 INFO  [Basedriver] Clicking on the Marriage Channel of FOTF Home page 
+2015-07-28 21:30:50,430 INFO  [Basedriver] Navigated to Marriage Channel Page Correctly 
+2015-07-28 21:30:50,606 INFO  [Basedriver] Clicking on the Parenting Channel of FOTF Home page 
+2015-07-28 21:30:54,996 INFO  [Basedriver] Navigated to Parenting Channel Page Correctly 
+2015-07-28 21:30:55,176 INFO  [Basedriver] Clicking on the Lifechallenges Channel of FOTF Home page 
+2015-07-28 21:30:58,084 INFO  [Basedriver] Navigated to LifeChallenges Channel Page Correctly 
+2015-07-28 21:30:58,340 INFO  [Basedriver] Clicking on the Faith Channel of FOTF Home page 
+2015-07-28 21:31:01,275 INFO  [Basedriver] Navigated to Faith Channel Page Correctly 
+2015-07-28 21:31:01,437 INFO  [Basedriver] Clicking on the Social Channel of FOTF Home page 
+2015-07-28 21:31:05,258 INFO  [Basedriver] Navigated to Social Channel Page Correctly 
+2015-07-28 21:31:05,258 INFO  [Basedriver] Testcase Execution starts for verify Operation on FOTF Home Page Content 
+2015-07-28 21:31:05,309 INFO  [Basedriver] FOTF Logo content is available 
+2015-07-28 21:31:05,310 INFO  [Basedriver] Testcase Execution starts for verify Operation on FOTF Channel Page Featured Content 
+2015-07-28 21:31:05,351 INFO  [Basedriver] Featured image content is available 
+2015-07-28 21:31:05,430 INFO  [Basedriver] TestCase Execution Finished for FOTF Media Center Project 
+2015-07-28 21:31:05,430 INFO  [Basedriver] Closing Driver 
+2015-07-29 14:53:55,603 INFO  [Basedriver]   
+2015-07-29 14:53:55,630 INFO  [Basedriver] *******************************************************  
+2015-07-29 14:53:55,630 INFO  [Basedriver] TestCase Execution Starts for FOTF Media Center Project 
+2015-07-29 14:53:55,630 INFO  [Basedriver] *******************************************************  
+2015-07-29 14:53:55,630 INFO  [Basedriver]   
+2015-07-29 14:53:55,642 INFO  [Basedriver] Testcase Execution starts for click Operation on FOTF Home Page Channel Content 
+2015-07-29 14:53:55,881 INFO  [Basedriver] Clicking on the Marriage Channel of FOTF Home page 
+2015-07-29 14:54:00,677 INFO  [Basedriver] Navigated to Marriage Channel Page Correctly 
+2015-07-29 14:54:00,810 INFO  [Basedriver] Clicking on the Parenting Channel of FOTF Home page 
+2015-07-29 14:54:07,152 INFO  [Basedriver] Navigated to Parenting Channel Page Correctly 
+2015-07-29 14:54:07,322 INFO  [Basedriver] Clicking on the Lifechallenges Channel of FOTF Home page 
+2015-07-29 14:54:10,792 INFO  [Basedriver] Navigated to LifeChallenges Channel Page Correctly 
+2015-07-29 14:54:10,969 INFO  [Basedriver] Clicking on the Faith Channel of FOTF Home page 
+2015-07-29 14:54:14,886 INFO  [Basedriver] Navigated to Faith Channel Page Correctly 
+2015-07-29 14:54:15,026 INFO  [Basedriver] Clicking on the Social Channel of FOTF Home page 
+2015-07-29 14:54:20,985 INFO  [Basedriver] Navigated to Social Channel Page Correctly 
+2015-07-29 14:54:20,988 INFO  [Basedriver] Testcase Execution starts for verify Operation on FOTF Home Page Content 
+2015-07-29 14:54:21,036 INFO  [Basedriver] FOTF Logo content is available 
+2015-07-29 14:54:21,037 INFO  [Basedriver] Testcase Execution starts for verify Operation on FOTF Channel Page Featured Content 
+2015-07-29 14:54:31,227 INFO  [Basedriver] TestCase Execution Finished for FOTF Media Center Project 
+2015-07-29 14:54:31,227 INFO  [Basedriver] Closing Driver 
+2015-07-29 17:12:15,007 INFO  [Basedriver]   
+2015-07-29 17:12:15,008 INFO  [Basedriver] *******************************************************  
+2015-07-29 17:12:15,008 INFO  [Basedriver] TestCase Execution Starts for FOTF Media Center Project 
+2015-07-29 17:12:15,008 INFO  [Basedriver] *******************************************************  
+2015-07-29 17:12:15,008 INFO  [Basedriver]   
+2015-07-29 17:12:15,024 INFO  [Basedriver] Testcase Execution starts for click Operation on FOTF Home Page Channel Content 
+2015-07-29 17:12:15,227 INFO  [Basedriver] Clicking on the Marriage Channel of FOTF Home page 
+2015-07-29 17:12:19,155 INFO  [Basedriver] Navigated to Marriage Channel Page Correctly 
+2015-07-29 17:12:19,319 INFO  [Basedriver] Clicking on the Parenting Channel of FOTF Home page 
+2015-07-29 17:12:21,515 INFO  [RetryExec] I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://127.0.0.1:7055: The target server failed to respond 
+2015-07-29 17:12:21,515 INFO  [RetryExec] Retrying request to {}->http://127.0.0.1:7055 
+2015-07-29 17:12:21,516 INFO  [RetryExec] I/O exception (java.net.SocketException) caught when processing request to {}->http://127.0.0.1:7055: Connection reset 
+2015-07-29 17:12:21,516 INFO  [RetryExec] Retrying request to {}->http://127.0.0.1:7055 
+2015-07-29 17:12:22,577 INFO  [Basedriver] Testcase Execution starts for verify Operation on FOTF Home Page Content 
+2015-07-29 17:12:23,595 INFO  [Basedriver] Testcase Execution starts for verify Operation on FOTF Channel Page Featured Content 
+2015-07-29 17:12:24,647 INFO  [Basedriver] TestCase Execution Finished for FOTF Media Center Project 
+2015-07-29 17:12:24,647 INFO  [Basedriver] Closing Driver 
+2015-07-29 17:21:11,548 INFO  [Basedriver]   
+2015-07-29 17:21:11,549 INFO  [Basedriver] *******************************************************  
+2015-07-29 17:21:11,549 INFO  [Basedriver] TestCase Execution Starts for FOTF Media Center Project 
+2015-07-29 17:21:11,549 INFO  [Basedriver] *******************************************************  
+2015-07-29 17:21:11,549 INFO  [Basedriver]   
+2015-07-29 17:21:11,567 INFO  [Basedriver] Testcase Execution starts for click Operation on FOTF Home Page Channel Content 
+2015-07-29 17:21:11,872 INFO  [Basedriver] Clicking on the Marriage Channel of FOTF Home page 
+2015-07-29 17:21:14,896 INFO  [Basedriver] Navigated to Marriage Channel Page Correctly 
+2015-07-29 17:21:15,034 INFO  [Basedriver] Clicking on the Parenting Channel of FOTF Home page 
+2015-07-29 17:21:19,814 INFO  [Basedriver] Navigated to Parenting Channel Page Correctly 
+2015-07-29 17:21:20,014 INFO  [Basedriver] Clicking on the Lifechallenges Channel of FOTF Home page 
+2015-07-29 17:21:22,862 INFO  [Basedriver] Navigated to LifeChallenges Channel Page Correctly 
+2015-07-29 17:21:23,014 INFO  [Basedriver] Clicking on the Faith Channel of FOTF Home page 
+2015-07-29 17:21:26,960 INFO  [Basedriver] Navigated to Faith Channel Page Correctly 
+2015-07-29 17:21:27,057 INFO  [Basedriver] Testcase Execution starts for verify Operation on FOTF Home Page Content 
+2015-07-29 17:21:28,062 INFO  [Basedriver] Testcase Execution starts for verify Operation on FOTF Channel Page Featured Content 
+2015-07-29 17:40:19,341 INFO  [Basedriver]   
+2015-07-29 17:40:19,341 INFO  [Basedriver] *******************************************************  
+2015-07-29 17:40:19,341 INFO  [Basedriver] TestCase Execution Starts for FOTF Media Center Project 
+2015-07-29 17:40:19,341 INFO  [Basedriver] *******************************************************  
+2015-07-29 17:40:19,341 INFO  [Basedriver]   
+2015-07-29 17:40:19,358 INFO  [Basedriver] Testcase Execution starts for click Operation on FOTF Home Page Channel Content 
+2015-07-29 17:40:19,603 INFO  [Basedriver] Clicking on the Marriage Channel of FOTF Home page 
+2015-07-29 17:40:23,224 INFO  [Basedriver] Navigated to Marriage Channel Page Correctly 
+2015-07-29 17:40:23,376 INFO  [Basedriver] Clicking on the Parenting Channel of FOTF Home page 
+2015-07-29 17:40:29,292 INFO  [Basedriver] Navigated to Parenting Channel Page Correctly 
+2015-07-29 17:40:29,458 INFO  [Basedriver] Clicking on the Lifechallenges Channel of FOTF Home page 
+2015-07-29 17:40:33,057 INFO  [Basedriver] Navigated to LifeChallenges Channel Page Correctly 
+2015-07-29 17:40:33,190 INFO  [Basedriver] Clicking on the Faith Channel of FOTF Home page 
+2015-07-29 17:40:36,969 INFO  [Basedriver] Navigated to Faith Channel Page Correctly 
+2015-07-29 17:40:37,123 INFO  [Basedriver] Clicking on the Social Channel of FOTF Home page 
+2015-07-29 17:40:40,948 INFO  [Basedriver] Navigated to Social Channel Page Correctly 
+2015-07-29 17:40:40,950 INFO  [Basedriver] Testcase Execution starts for verify Operation on FOTF Home Page Content 
+2015-07-29 17:40:41,007 INFO  [Basedriver] FOTF Logo content is available 
+2015-07-29 17:40:41,008 INFO  [Basedriver] Testcase Execution starts for verify Operation on FOTF Channel Page Featured Content 
+2015-07-29 17:40:45,712 INFO  [Basedriver] TestCase Execution Finished for FOTF Media Center Project 
+2015-07-29 17:40:45,712 INFO  [Basedriver] Closing Driver 
+2015-07-29 17:42:05,062 INFO  [Basedriver]   
+2015-07-29 17:42:05,064 INFO  [Basedriver] *******************************************************  
+2015-07-29 17:42:05,065 INFO  [Basedriver] TestCase Execution Starts for FOTF Media Center Project 
+2015-07-29 17:42:05,065 INFO  [Basedriver] *******************************************************  
+2015-07-29 17:42:05,065 INFO  [Basedriver]   
+2015-07-29 17:42:05,081 INFO  [Basedriver] Testcase Execution starts for click Operation on FOTF Home Page Channel Content 
+2015-07-29 17:42:05,414 INFO  [Basedriver] Clicking on the Marriage Channel of FOTF Home page 
+2015-07-29 17:42:07,896 INFO  [RetryExec] I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://127.0.0.1:7055: The target server failed to respond 
+2015-07-29 17:42:07,896 INFO  [RetryExec] Retrying request to {}->http://127.0.0.1:7055 
+2015-07-29 17:42:08,919 INFO  [Basedriver] Testcase Execution starts for verify Operation on FOTF Home Page Content 
+2015-07-29 17:42:09,950 INFO  [Basedriver] Testcase Execution starts for verify Operation on FOTF Channel Page Featured Content 
+2015-07-29 17:42:11,024 INFO  [Basedriver] TestCase Execution Finished for FOTF Media Center Project 
+2015-07-29 17:42:11,024 INFO  [Basedriver] Closing Driver 
+2015-07-29 17:42:31,042 INFO  [Basedriver]   
+2015-07-29 17:42:31,043 INFO  [Basedriver] *******************************************************  
+2015-07-29 17:42:31,043 INFO  [Basedriver] TestCase Execution Starts for FOTF Media Center Project 
+2015-07-29 17:42:31,043 INFO  [Basedriver] *******************************************************  
+2015-07-29 17:42:31,043 INFO  [Basedriver]   
+2015-07-29 17:42:31,070 INFO  [Basedriver] Testcase Execution starts for click Operation on FOTF Home Page Channel Content 
+2015-07-29 17:42:31,454 INFO  [Basedriver] Clicking on the Marriage Channel of FOTF Home page 
+2015-07-29 17:42:35,268 INFO  [Basedriver] Navigated to Marriage Channel Page Correctly 
+2015-07-29 17:42:35,403 INFO  [Basedriver] Clicking on the Parenting Channel of FOTF Home page 
+2015-07-29 17:42:40,000 INFO  [Basedriver] Navigated to Parenting Channel Page Correctly 
+2015-07-29 17:42:40,164 INFO  [Basedriver] Clicking on the Lifechallenges Channel of FOTF Home page 
+2015-07-29 17:42:42,259 INFO  [Basedriver] Navigated to LifeChallenges Channel Page Correctly 
+2015-07-29 17:42:43,312 INFO  [Basedriver] Clicking on the Faith Channel of FOTF Home page 
+2015-07-29 17:42:46,768 INFO  [Basedriver] Navigated to Faith Channel Page Correctly 
+2015-07-29 17:42:46,935 INFO  [Basedriver] Clicking on the Social Channel of FOTF Home page 
+2015-07-29 17:42:52,074 INFO  [Basedriver] Navigated to Social Channel Page Correctly 
+2015-07-29 17:42:52,075 INFO  [Basedriver] Testcase Execution starts for verify Operation on FOTF Home Page Content 
+2015-07-29 17:42:52,143 INFO  [Basedriver] FOTF Logo content is available 
+2015-07-29 17:42:52,145 INFO  [Basedriver] Testcase Execution starts for verify Operation on FOTF Channel Page Featured Content 
+2015-07-29 17:43:00,990 INFO  [Basedriver] TestCase Execution Finished for FOTF Media Center Project 
+2015-07-29 17:43:00,991 INFO  [Basedriver] Closing Driver 
+2015-07-29 17:43:17,092 INFO  [Basedriver]   
+2015-07-29 17:43:17,093 INFO  [Basedriver] *******************************************************  
+2015-07-29 17:43:17,093 INFO  [Basedriver] TestCase Execution Starts for FOTF Media Center Project 
+2015-07-29 17:43:17,094 INFO  [Basedriver] *******************************************************  
+2015-07-29 17:43:17,094 INFO  [Basedriver]   
+2015-07-29 17:43:17,121 INFO  [Basedriver] Testcase Execution starts for click Operation on FOTF Home Page Channel Content 
+2015-07-29 17:43:17,323 INFO  [Basedriver] Clicking on the Marriage Channel of FOTF Home page 
+2015-07-29 17:43:20,078 INFO  [RetryExec] I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://127.0.0.1:7055: The target server failed to respond 
+2015-07-29 17:43:20,078 INFO  [RetryExec] Retrying request to {}->http://127.0.0.1:7055 
+2015-07-29 17:44:11,231 INFO  [Basedriver]   
+2015-07-29 17:44:11,233 INFO  [Basedriver] *******************************************************  
+2015-07-29 17:44:11,233 INFO  [Basedriver] TestCase Execution Starts for FOTF Media Center Project 
+2015-07-29 17:44:11,233 INFO  [Basedriver] *******************************************************  
+2015-07-29 17:44:11,233 INFO  [Basedriver]   
+2015-07-29 17:44:11,249 INFO  [Basedriver] Testcase Execution starts for click Operation on FOTF Home Page Channel Content 
+2015-07-29 17:44:11,460 INFO  [Basedriver] Clicking on the Marriage Channel of FOTF Home page 
+2015-07-29 17:46:56,500 INFO  [Basedriver]   
+2015-07-29 17:46:56,501 INFO  [Basedriver] *******************************************************  
+2015-07-29 17:46:56,501 INFO  [Basedriver] TestCase Execution Starts for FOTF Media Center Project 
+2015-07-29 17:46:56,501 INFO  [Basedriver] *******************************************************  
+2015-07-29 17:46:56,501 INFO  [Basedriver]   
+2015-07-29 17:46:56,519 INFO  [Basedriver] Testcase Execution starts for click Operation on FOTF Home Page Channel Content 
+2015-07-29 17:46:56,827 INFO  [Basedriver] Clicking on the Marriage Channel of FOTF Home page 
+2015-07-29 17:46:59,261 INFO  [RetryExec] I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://127.0.0.1:7055: The target server failed to respond 
+2015-07-29 17:46:59,261 INFO  [RetryExec] Retrying request to {}->http://127.0.0.1:7055 
+2015-07-29 17:49:45,935 INFO  [Basedriver]   
+2015-07-29 17:49:45,935 INFO  [Basedriver] *******************************************************  
+2015-07-29 17:49:45,935 INFO  [Basedriver] TestCase Execution Starts for FOTF Media Center Project 
+2015-07-29 17:49:45,935 INFO  [Basedriver] *******************************************************  
+2015-07-29 17:49:45,935 INFO  [Basedriver]   
+2015-07-29 17:49:45,948 INFO  [Basedriver] Testcase Execution starts for click Operation on FOTF Home Page Channel Content 
+2015-07-29 17:49:46,169 INFO  [Basedriver] Clicking on the Marriage Channel of FOTF Home page 
+2015-07-29 17:49:48,701 INFO  [RetryExec] I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://127.0.0.1:7055: The target server failed to respond 
+2015-07-29 17:49:48,701 INFO  [RetryExec] Retrying request to {}->http://127.0.0.1:7055 
+2015-07-29 17:49:49,722 INFO  [Basedriver] Testcase Execution starts for verify Operation on FOTF Home Page Content 
+2015-07-29 17:49:50,730 INFO  [Basedriver] Testcase Execution starts for verify Operation on FOTF Channel Page Featured Content 
+2015-07-29 17:49:51,808 INFO  [Basedriver] TestCase Execution Finished for FOTF Media Center Project 
+2015-07-29 17:49:51,808 INFO  [Basedriver] Closing Driver 
+2015-07-29 18:02:58,128 INFO  [Basedriver]   
+2015-07-29 18:02:58,129 INFO  [Basedriver] *******************************************************  
+2015-07-29 18:02:58,129 INFO  [Basedriver] TestCase Execution Starts for FOTF Media Center Project 
+2015-07-29 18:02:58,129 INFO  [Basedriver] *******************************************************  
+2015-07-29 18:02:58,129 INFO  [Basedriver]   
+2015-07-29 18:02:58,144 INFO  [Basedriver] Testcase Execution starts for click Operation on FOTF Home Page Channel Content 
+2015-07-29 18:02:58,432 INFO  [Basedriver] Clicking on the Marriage Channel of FOTF Home page 
+2015-07-29 18:03:01,992 INFO  [Basedriver] Navigated to Marriage Channel Page Correctly 
+2015-07-29 18:03:02,171 INFO  [Basedriver] Clicking on the Parenting Channel of FOTF Home page 
+2015-07-29 18:03:07,500 INFO  [Basedriver] Navigated to Parenting Channel Page Correctly 
+2015-07-29 18:03:07,700 INFO  [Basedriver] Clicking on the Lifechallenges Channel of FOTF Home page 
+2015-07-29 18:03:10,246 INFO  [Basedriver] Navigated to LifeChallenges Channel Page Correctly 
+2015-07-29 18:03:11,337 INFO  [Basedriver] Clicking on the Faith Channel of FOTF Home page 
+2015-07-29 18:03:14,767 INFO  [Basedriver] Navigated to Faith Channel Page Correctly 
+2015-07-29 18:03:14,939 INFO  [Basedriver] Clicking on the Social Channel of FOTF Home page 
+2015-07-29 18:03:19,298 INFO  [Basedriver] Navigated to Social Channel Page Correctly 
+2015-07-29 18:03:19,300 INFO  [Basedriver] Testcase Execution starts for verify Operation on FOTF Home Page Content 
+2015-07-29 18:03:19,354 INFO  [Basedriver] FOTF Logo content is available 
+2015-07-29 18:03:19,356 INFO  [Basedriver] Testcase Execution starts for verify Operation on FOTF Channel Page Featured Content 
+2015-07-29 18:03:29,565 INFO  [Basedriver] TestCase Execution Finished for FOTF Media Center Project 
+2015-07-29 18:03:29,565 INFO  [Basedriver] Closing Driver 
+2015-07-29 18:08:59,941 INFO  [Basedriver]   
+2015-07-29 18:08:59,942 INFO  [Basedriver] *******************************************************  
+2015-07-29 18:08:59,942 INFO  [Basedriver] TestCase Execution Starts for FOTF Media Center Project 
+2015-07-29 18:08:59,942 INFO  [Basedriver] *******************************************************  
+2015-07-29 18:08:59,942 INFO  [Basedriver]   
+2015-07-29 18:08:59,956 INFO  [Basedriver] Testcase Execution starts for click Operation on FOTF Home Page Channel Content 
+2015-07-29 18:09:00,178 INFO  [Basedriver] Clicking on the Marriage Channel of FOTF Home page 
+2015-07-29 18:09:01,747 INFO  [Basedriver] Navigated to Marriage Channel Page Correctly 
+2015-07-29 18:09:07,102 INFO  [Basedriver] Clicking on the Parenting Channel of FOTF Home page 
+2015-07-29 18:09:07,830 INFO  [Basedriver] Navigated to Parenting Channel Page Correctly 
+2015-07-29 18:09:07,990 INFO  [Basedriver] Clicking on the Lifechallenges Channel of FOTF Home page 
+2015-07-29 18:09:11,809 INFO  [Basedriver] Navigated to LifeChallenges Channel Page Correctly 
+2015-07-29 18:09:12,038 INFO  [Basedriver] Clicking on the Faith Channel of FOTF Home page 
+2015-07-29 18:09:16,574 INFO  [Basedriver] Navigated to Faith Channel Page Correctly 
+2015-07-29 18:09:16,785 INFO  [Basedriver] Clicking on the Social Channel of FOTF Home page 
+2015-07-29 18:09:20,857 INFO  [Basedriver] Navigated to Social Channel Page Correctly 
+2015-07-29 18:09:20,859 INFO  [Basedriver] Testcase Execution starts for verify Operation on FOTF Home Page Content 
+2015-07-29 18:09:20,909 INFO  [Basedriver] FOTF Logo content is available 
+2015-07-29 18:09:20,910 INFO  [Basedriver] Testcase Execution starts for verify Operation on FOTF Channel Page Featured Content 
+2015-07-29 18:09:52,058 INFO  [Basedriver]   
+2015-07-29 18:09:52,059 INFO  [Basedriver] *******************************************************  
+2015-07-29 18:09:52,059 INFO  [Basedriver] TestCase Execution Starts for FOTF Media Center Project 
+2015-07-29 18:09:52,059 INFO  [Basedriver] *******************************************************  
+2015-07-29 18:09:52,059 INFO  [Basedriver]   
+2015-07-29 18:09:52,072 INFO  [Basedriver] Testcase Execution starts for click Operation on FOTF Home Page Channel Content 
+2015-07-29 18:09:52,353 INFO  [Basedriver] Clicking on the Marriage Channel of FOTF Home page 
+2015-07-29 18:09:56,273 INFO  [Basedriver] Navigated to Marriage Channel Page Correctly 
+2015-07-29 18:09:56,431 INFO  [Basedriver] Clicking on the Parenting Channel of FOTF Home page 
+2015-07-29 18:09:58,672 INFO  [RetryExec] I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://127.0.0.1:7055: The target server failed to respond 
+2015-07-29 18:09:58,673 INFO  [RetryExec] Retrying request to {}->http://127.0.0.1:7055 
+2015-07-29 18:09:59,699 INFO  [Basedriver] Testcase Execution starts for verify Operation on FOTF Home Page Content 
+2015-07-29 18:10:00,716 INFO  [Basedriver] Testcase Execution starts for verify Operation on FOTF Channel Page Featured Content 
+2015-07-29 18:10:01,777 INFO  [Basedriver] TestCase Execution Finished for FOTF Media Center Project 
+2015-07-29 18:10:01,777 INFO  [Basedriver] Closing Driver 
+2015-07-29 18:10:50,757 INFO  [Basedriver]   
+2015-07-29 18:10:50,758 INFO  [Basedriver] *******************************************************  
+2015-07-29 18:10:50,758 INFO  [Basedriver] TestCase Execution Starts for FOTF Media Center Project 
+2015-07-29 18:10:50,758 INFO  [Basedriver] *******************************************************  
+2015-07-29 18:10:50,758 INFO  [Basedriver]   
+2015-07-29 18:10:50,770 INFO  [Basedriver] Testcase Execution starts for click Operation on FOTF Home Page Channel Content 
+2015-07-29 18:10:51,089 INFO  [Basedriver] Clicking on the Marriage Channel of FOTF Home page 
+2015-07-29 18:10:53,889 INFO  [Basedriver] Navigated to Marriage Channel Page Correctly 
+2015-07-29 18:10:55,141 INFO  [Basedriver] Clicking on the Parenting Channel of FOTF Home page 
+2015-07-29 18:10:57,430 INFO  [RetryExec] I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://127.0.0.1:7056: The target server failed to respond 
+2015-07-29 18:10:57,430 INFO  [RetryExec] Retrying request to {}->http://127.0.0.1:7056 
+2015-07-29 18:10:58,442 INFO  [Basedriver] Testcase Execution starts for verify Operation on FOTF Home Page Content 
+2015-07-29 18:10:59,454 INFO  [Basedriver] Testcase Execution starts for verify Operation on FOTF Channel Page Featured Content 
+2015-07-29 18:11:00,512 INFO  [Basedriver] TestCase Execution Finished for FOTF Media Center Project 
+2015-07-29 18:11:00,512 INFO  [Basedriver] Closing Driver 
+2015-07-29 18:21:49,118 INFO  [Basedriver]   
+2015-07-29 18:21:49,119 INFO  [Basedriver] *******************************************************  
+2015-07-29 18:21:49,119 INFO  [Basedriver] TestCase Execution Starts for FOTF Media Center Project 
+2015-07-29 18:21:49,119 INFO  [Basedriver] *******************************************************  
+2015-07-29 18:21:49,119 INFO  [Basedriver]   
+2015-07-29 18:21:49,136 INFO  [Basedriver] Testcase Execution starts for click Operation on FOTF Home Page Channel Content 
+2015-07-29 18:21:49,374 INFO  [Basedriver] Clicking on the Marriage Channel of FOTF Home page 
+2015-07-29 18:22:30,846 INFO  [Basedriver] Navigated to Marriage Channel Page Correctly 
+2015-07-29 18:22:31,032 INFO  [Basedriver] Clicking on the Parenting Channel of FOTF Home page 
+2015-07-29 18:22:36,279 INFO  [Basedriver] Navigated to Parenting Channel Page Correctly 
+2015-07-29 18:22:36,477 INFO  [Basedriver] Clicking on the Lifechallenges Channel of FOTF Home page 
+2015-07-29 18:22:40,271 INFO  [Basedriver] Navigated to LifeChallenges Channel Page Correctly 
+2015-07-29 18:22:40,454 INFO  [Basedriver] Clicking on the Faith Channel of FOTF Home page 
+2015-07-29 18:22:43,955 INFO  [Basedriver] Navigated to Faith Channel Page Correctly 
+2015-07-29 18:22:44,245 INFO  [Basedriver] Clicking on the Social Channel of FOTF Home page 
+2015-07-29 18:22:48,183 INFO  [Basedriver] Navigated to Social Channel Page Correctly 
+2015-07-29 18:22:48,188 INFO  [Basedriver] Testcase Execution starts for verify Operation on FOTF Home Page Content 
+2015-07-29 18:22:48,241 INFO  [Basedriver] FOTF Logo content is available 
+2015-07-29 18:22:48,243 INFO  [Basedriver] Testcase Execution starts for verify Operation on FOTF Channel Page Featured Content 
+2015-07-29 18:22:58,404 INFO  [Basedriver] TestCase Execution Finished for FOTF Media Center Project 
+2015-07-29 18:22:58,404 INFO  [Basedriver] Closing Driver 
+2015-07-31 17:42:54,974 INFO  [Basedriver]   
+2015-07-31 17:42:54,989 INFO  [Basedriver] *******************************************************  
+2015-07-31 17:42:54,989 INFO  [Basedriver] TestCase Execution Starts for FOTF Media Center Project 
+2015-07-31 17:42:54,989 INFO  [Basedriver] *******************************************************  
+2015-07-31 17:42:54,989 INFO  [Basedriver]   
+2015-07-31 17:42:55,246 INFO  [Basedriver] TestCase Execution Finished for FOTF Media Center Project 
+2015-07-31 17:42:55,246 INFO  [Basedriver] Closing Driver 
+2015-07-31 19:44:58,880 INFO  [Basedriver]   
+2015-07-31 19:44:58,881 INFO  [Basedriver] *******************************************************  
+2015-07-31 19:44:58,881 INFO  [Basedriver] TestCase Execution Starts for FOTF Media Center Project 
+2015-07-31 19:44:58,881 INFO  [Basedriver] *******************************************************  
+2015-07-31 19:44:58,881 INFO  [Basedriver]   
+2015-07-31 19:44:58,890 INFO  [Basedriver] Testcase Execution starts for click Operation on FOTF Home Page Channel Content 
+2015-07-31 19:44:59,188 INFO  [Basedriver] Clicking on the Marriage Channel of FOTF Home page 
+2015-07-31 19:45:07,351 INFO  [Basedriver] Navigated to Marriage Channel Page Correctly 
+2015-07-31 19:45:07,522 INFO  [Basedriver] Clicking on the Parenting Channel of FOTF Home page 
+2015-07-31 19:45:12,627 INFO  [Basedriver] Navigated to Parenting Channel Page Correctly 
+2015-07-31 19:45:12,804 INFO  [Basedriver] Clicking on the Lifechallenges Channel of FOTF Home page 
+2015-07-31 19:45:17,664 INFO  [Basedriver] Navigated to LifeChallenges Channel Page Correctly 
+2015-07-31 19:45:17,838 INFO  [Basedriver] Clicking on the Faith Channel of FOTF Home page 
+2015-07-31 19:45:21,522 INFO  [Basedriver] Navigated to Faith Channel Page Correctly 
+2015-07-31 19:45:21,655 INFO  [Basedriver] Clicking on the Social Channel of FOTF Home page 
+2015-07-31 19:45:26,109 INFO  [Basedriver] Navigated to Social Channel Page Correctly 
+2015-07-31 19:45:26,110 INFO  [Basedriver] Testcase Execution starts for verify Operation on FOTF Home Page Content 
+2015-07-31 19:45:26,158 INFO  [Basedriver] FOTF Logo content is available 
+2015-07-31 19:45:26,159 INFO  [Basedriver] Testcase Execution starts for verify Operation on FOTF Channel Page Featured Content 
+2015-07-31 19:45:36,411 INFO  [Basedriver] TestCase Execution Finished for FOTF Media Center Project 
+2015-07-31 19:45:36,412 INFO  [Basedriver] Closing Driver 
+2015-07-31 19:51:06,287 INFO  [Basedriver]   
+2015-07-31 19:51:06,288 INFO  [Basedriver] *******************************************************  
+2015-07-31 19:51:06,288 INFO  [Basedriver] TestCase Execution Starts for FOTF Media Center Project 
+2015-07-31 19:51:06,288 INFO  [Basedriver] *******************************************************  
+2015-07-31 19:51:06,288 INFO  [Basedriver]   
+2015-07-31 19:51:06,323 INFO  [Basedriver] TestCase Execution Finished for FOTF Media Center Project 
+2015-07-31 19:51:06,323 INFO  [Basedriver] Closing Driver 
