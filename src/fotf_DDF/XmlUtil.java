@@ -25,10 +25,9 @@ public class XmlUtil {
 		try{
 			// Create Object for Utility Class
 			String xlFilePath="Switches\\Flags.xls";
-			//byte[] xlPath = String.getBytes(xlFilePath);
-			
+					
 			ExcelLib excel =new ExcelLib(xlFilePath);
-			
+			excel.columnDictionary();
 			// initialization of Drivers
 			DocumentBuilderFactory documentBuilderFactory = DocumentBuilderFactory.newInstance();
 			
@@ -95,8 +94,8 @@ public class XmlUtil {
 			DOMSource source=new DOMSource(document);
 			
 			// Print all the Generated XML in the File Object
-			StreamResult result=new StreamResult(fstream);
-			
+			StreamResult result = new StreamResult(fstream);
+			transformer.transform(source, result);
 			// Close the Generated file
 			out.close();
 		}catch(DOMException e){
