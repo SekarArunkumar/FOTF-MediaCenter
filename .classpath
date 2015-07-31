@@ -47,5 +47,6 @@
 	<classpathentry kind="lib" path="D:/Projects/FOTF-MediaCenter/src/lib_Files/log4j-1.2.17.jar"/>
 	<classpathentry kind="lib" path="D:/Projects/FOTF-MediaCenter/src/lib_Files/SaxonLiaison.jar"/>
 	<classpathentry kind="lib" path="D:/Projects/FOTF-MediaCenter/src/lib_Files/activation.jar"/>
+	<classpathentry kind="lib" path="D:/Projects/FOTF-MediaCenter/src/lib_Files/jxl-2.6.12.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
