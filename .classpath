@@ -34,7 +34,7 @@
 	<classpathentry kind="lib" path="D:/Projects/FOTF-MediaCenter/src/lib_Files/selenium-java-2.46.0.jar"/>
 	<classpathentry kind="lib" path="D:/Projects/FOTF-MediaCenter/src/lib_Files/selenium-java-2.46.0-srcs.jar"/>
 	<classpathentry kind="lib" path="D:/Projects/FOTF-MediaCenter/src/lib_Files/serializer-2.7.2.jar"/>
-	<classpathentry kind="lib" path="D:/Projects/FOTF-MediaCenter/src/lib_Files/testng-6.8.5.jar" sourcepath="build"/>
+	<classpathentry kind="lib" path="D:/Projects/FOTF-MediaCenter/src/lib_Files/testng-6.8.5.jar"/>
 	<classpathentry kind="lib" path="D:/Projects/FOTF-MediaCenter/src/lib_Files/websocket-api-9.2.11.v20150529.jar"/>
 	<classpathentry kind="lib" path="D:/Projects/FOTF-MediaCenter/src/lib_Files/websocket-client-9.2.11.v20150529.jar"/>
 	<classpathentry kind="lib" path="D:/Projects/FOTF-MediaCenter/src/lib_Files/websocket-common-9.2.11.v20150529.jar"/>
@@ -47,6 +47,5 @@
 	<classpathentry kind="lib" path="D:/Projects/FOTF-MediaCenter/src/lib_Files/log4j-1.2.17.jar"/>
 	<classpathentry kind="lib" path="D:/Projects/FOTF-MediaCenter/src/lib_Files/SaxonLiaison.jar"/>
 	<classpathentry kind="lib" path="D:/Projects/FOTF-MediaCenter/src/lib_Files/activation.jar"/>
-	<classpathentry kind="lib" path="D:/Projects/FOTF-MediaCenter/src/lib_Files/jxl-2.6.12.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

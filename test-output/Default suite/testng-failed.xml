@@ -3,22 +3,16 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="fotf_Config.Basedriver">
-        <methods>
-          <include name="config"/>
-        </methods>
-      </class> <!-- fotf_Config.Basedriver -->
       <class name="fotf_Testcase.Homepage">
         <methods>
-          <include name="click_fotf_channels"/>
-          <include name="verify_fotf_logo"/>
+          <include name="basedriver"/>
         </methods>
       </class> <!-- fotf_Testcase.Homepage -->
-      <class name="fotf_Testcase.Channelpage">
+      <class name="fotf_Config.Basedriver">
         <methods>
-          <include name="verify_fotf_channel"/>
+          <include name="basedriver"/>
         </methods>
-      </class> <!-- fotf_Testcase.Channelpage -->
+      </class> <!-- fotf_Config.Basedriver -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
