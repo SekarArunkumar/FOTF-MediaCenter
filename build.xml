@@ -126,7 +126,7 @@
 
 		<target name="sendMail" depends="makexsltreports">
 			<zip destfile="${ws.home}/XSLT_Reports/output.zip" basedir="${ws.home}/XSLT_Reports/output" />
-			
+			<zip destfile="${ws.home}/logfile.log" basedir="${ws.home}" />
 			<mail
 				tolist="Annadurai.Somasundaram@fotf.org,Karthikbabu.Rajagopal@fotf.org,Maheswari.Srinivasan@cscloud.org,hemanathan.kumar@cscloud.org,arun.kumar@cscloud.org"
 				from="Arun.Kumar@cscloud.org"
@@ -136,6 +136,9 @@
 				<fileset dir="${ws.home}/XSLT_Reports/">
 				<include name="**/*.zip"/>
 				</fileset>
+				<fileset dir="${ws.home}/">  
+				    <include name="logfile.log"/>
+				</fileset>				    
 				</attachments>
 				</mail>
 			</target>
