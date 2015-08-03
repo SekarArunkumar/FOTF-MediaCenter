@@ -1,21 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="22715" started-at="2015-07-21T10:31:41Z" finished-at="2015-07-21T10:32:04Z">
+  <suite name="SeleniumJavaFramework" duration-ms="10" started-at="2015-08-03T11:32:25Z" finished-at="2015-08-03T11:32:25Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="22715" started-at="2015-07-21T10:31:41Z" finished-at="2015-07-21T10:32:04Z">
-      <class name="fotf_Testcase.Homepage">
-        <test-method status="PASS" signature="config()[pri:0, instance:fotf_Testcase.Homepage@725bef66]" name="config" is-config="true" duration-ms="191747" started-at="2015-07-21T15:58:30Z" finished-at="2015-07-21T16:01:41Z">
+    <test name="testing" duration-ms="10" started-at="2015-08-03T11:32:25Z" finished-at="2015-08-03T11:32:25Z">
+      <class name="fotf_Config.Basedriver">
+        <test-method status="PASS" signature="config()[pri:0, instance:fotf_Config.Basedriver@56cbfb61]" name="config" is-config="true" duration-ms="13873" started-at="2015-08-03T17:02:11Z" finished-at="2015-08-03T17:02:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- config -->
-        <test-method status="PASS" signature="fotf_channel()[pri:0, instance:fotf_Testcase.Homepage@725bef66]" name="fotf_channel" duration-ms="22706" started-at="2015-07-21T16:01:41Z" finished-at="2015-07-21T16:02:04Z">
+        <test-method status="PASS" signature="sample3()[pri:0, instance:fotf_Config.Basedriver@56cbfb61]" name="sample3" duration-ms="0" started-at="2015-08-03T17:02:25Z" finished-at="2015-08-03T17:02:25Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- fotf_channel -->
-      </class> <!-- fotf_Testcase.Homepage -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- sample3 -->
+        <test-method status="PASS" signature="sample1()[pri:0, instance:fotf_Config.Basedriver@56cbfb61]" name="sample1" duration-ms="0" started-at="2015-08-03T17:02:25Z" finished-at="2015-08-03T17:02:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sample1 -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:fotf_Config.Basedriver@56cbfb61]" name="closeDriver" is-config="true" duration-ms="592" started-at="2015-08-03T17:02:25Z" finished-at="2015-08-03T17:02:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- fotf_Config.Basedriver -->
+    </test> <!-- testing -->
+  </suite> <!-- SeleniumJavaFramework -->
 </testng-results>

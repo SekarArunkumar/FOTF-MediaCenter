@@ -86,7 +86,7 @@
     <!-- run -->
     <target name="run" depends="compile">
         <testng classpath="${test.classpath}:${test.dest}" suitename="suite1">	
-            <xmlfileset dir="${ws.home}" includes="testng.xml"/>
+            <xmlfileset dir="${ws.home}/Switches" includes="testng.xml"/>
         </testng>
         <!--
         <testng classpath="${test.classpath}:${test.dest}" groups="fast">
@@ -139,7 +139,5 @@
 				</attachments>
 				</mail>
 			</target>
-		
 
-	
 </project>
