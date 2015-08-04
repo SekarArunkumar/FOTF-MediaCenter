@@ -1,1 +1,26 @@
-<?xml version="1.0" encoding="UTF-8"?><suite name="SeleniumJavaFramework"><parameter name="sample1" value="sample1"/><parameter name="sample3" value="sample3"/><test name="testing"><classes><class name="fotf_Config.Basedriver"><methods><include name="sample1"/><include name="sample3"/></methods></class></classes></test></suite>
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SeleniumJavaFramework">
+    <parameter name="sample1" value="sample1"/>
+    <parameter name="sample3" value="sample3"/>
+    <test name="testing">
+        <classes>
+            <class name="fotf_Config.Basedriver">
+                <methods>
+                    <include name="sample1"/>
+                    <include name="sample3"/>
+                    </methods>
+                    
+                    </class>
+                    
+           <class name="fotf_Testcase.Homepage">
+                <methods>
+                    <include name="verify_fotf_logo"/>
+                    
+                    </methods>
+                    
+                    </class>
+                    </classes>
+        
+                    </test>
+                    
+                    </suite>

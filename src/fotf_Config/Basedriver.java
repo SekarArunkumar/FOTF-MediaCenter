@@ -69,17 +69,17 @@ public static void main(String args[]) throws Exception{
 	
 	@Test
 	public static void sample1(){
-		System.out.println("sample");
+		System.out.println("sample1");
 	}
 	
 	@Test
 	public static void sample2(){
-		System.out.println("sample");
+		System.out.println("sample2");
 	}
 	
 	@Test
 	public static void sample3(){
-		System.out.println("sample");
+		System.out.println("sample3");
 	}
 	
 }
