@@ -46,6 +46,10 @@ public static void main(String args[]) throws Exception{
 		DOMConfigurator.configure("log4j.xml");
 		Driver=new FirefoxDriver();
 		Driver.get("http://www.focusonthefamily.com/");
+	
+		File scrFile = (File) ((TakesScreenshot)Driver).getScreenshotAs(OutputType.FILE);
+		FileUtils.copyFile(scrFile, new File("D:\\Projects\\FOTF-MediaCenter\\Switches\\MyFilesscreenshot.png"));
+	    
 		homepage=new FotfHomePageObjects(Driver);
 		channelObj=new FotfChannelPageobjects(Driver);
 		Driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
