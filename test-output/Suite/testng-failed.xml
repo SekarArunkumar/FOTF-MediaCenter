@@ -3,18 +3,11 @@
 <suite name="Failed suite [Suite]" parallel="none">
   <test name="Test(failed)" parallel="none">
     <classes>
-      <class name="fotf_Testcase.Channelpage">
+      <class name="fotf_Config.Trigger">
         <methods>
-          <include name="verify_fotf_channel"/>
-          <include name="config"/>
+          <include name="triggerProject"/>
         </methods>
-      </class> <!-- fotf_Testcase.Channelpage -->
-      <class name="fotf_Testcase.Homepage">
-        <methods>
-          <include name="click_fotf_channels"/>
-          <include name="verify_fotf_logo"/>
-        </methods>
-      </class> <!-- fotf_Testcase.Homepage -->
+      </class> <!-- fotf_Config.Trigger -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

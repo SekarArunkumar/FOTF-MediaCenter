@@ -3,9 +3,7 @@
 <suite name="Suite" parallel="none">
   <test name="Test">
     <classes>
-    
-      <class name="fotf_Testcase.Homepage"/>
-      <class name="fotf_Testcase.Channelpage"/>
-    </classes>
+      <class name="fotf_Config.Trigger"/>
+      </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

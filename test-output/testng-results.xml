@@ -1,29 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="SeleniumJavaFramework" duration-ms="10" started-at="2015-08-03T11:32:25Z" finished-at="2015-08-03T11:32:25Z">
+  <suite name="Suite" duration-ms="87907" started-at="2015-08-06T15:29:02Z" finished-at="2015-08-06T15:30:30Z">
     <groups>
     </groups>
-    <test name="testing" duration-ms="10" started-at="2015-08-03T11:32:25Z" finished-at="2015-08-03T11:32:25Z">
-      <class name="fotf_Config.Basedriver">
-        <test-method status="PASS" signature="config()[pri:0, instance:fotf_Config.Basedriver@56cbfb61]" name="config" is-config="true" duration-ms="13873" started-at="2015-08-03T17:02:11Z" finished-at="2015-08-03T17:02:25Z">
+    <test name="Test" duration-ms="87907" started-at="2015-08-06T15:29:02Z" finished-at="2015-08-06T15:30:30Z">
+      <class name="fotf_Config.Trigger">
+        <test-method status="PASS" signature="triggerProject()[pri:0, instance:fotf_Config.Trigger@233c0b17]" name="triggerProject" duration-ms="87897" started-at="2015-08-06T20:59:02Z" finished-at="2015-08-06T21:00:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- config -->
-        <test-method status="PASS" signature="sample3()[pri:0, instance:fotf_Config.Basedriver@56cbfb61]" name="sample3" duration-ms="0" started-at="2015-08-03T17:02:25Z" finished-at="2015-08-03T17:02:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sample3 -->
-        <test-method status="PASS" signature="sample1()[pri:0, instance:fotf_Config.Basedriver@56cbfb61]" name="sample1" duration-ms="0" started-at="2015-08-03T17:02:25Z" finished-at="2015-08-03T17:02:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sample1 -->
-        <test-method status="PASS" signature="closeDriver()[pri:0, instance:fotf_Config.Basedriver@56cbfb61]" name="closeDriver" is-config="true" duration-ms="592" started-at="2015-08-03T17:02:25Z" finished-at="2015-08-03T17:02:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeDriver -->
-      </class> <!-- fotf_Config.Basedriver -->
-    </test> <!-- testing -->
-  </suite> <!-- SeleniumJavaFramework -->
+        </test-method> <!-- triggerProject -->
+      </class> <!-- fotf_Config.Trigger -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

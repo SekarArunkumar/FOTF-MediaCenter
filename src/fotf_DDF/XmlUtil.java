@@ -22,6 +22,7 @@ import org.w3c.dom.Element;
 
 public class XmlUtil {
 	public static void createXml() throws Exception{
+		int elementcounter;
 		try{
 			// Create Object for Utility Class
 			String xlFilePath="Switches\\Flags.xls";
@@ -38,52 +39,81 @@ public class XmlUtil {
 			
 			// Get the Flagged Cells with value = "EXECUTE" from Excel file
 			excel.getFlaggedMethods("Switch");
+			excel.getFlaggedclass("Switch");
+			excel.getFlaggedparameter("Switch");
 			
 			// Get the number of parameter to be created in XML
 			int totalnoofelementsflaggedtorun = excel.flaggedMethod.size();
-			
+			int excelBrowserCount = excel.flaggedparameter.size();
+			int flaggedClassCount = excel.flaggedClass.size();
 			// Type the suite Tag Element in the XML file
 			Element rootElementSuite=document.createElement("suite");
+			document.appendChild(rootElementSuite);
+			 
+			rootElementSuite.setAttribute("name", "SeleniumJavaFramework");
 			
 			// Type the parameter set of lines in the XML file
-			for(int elementcounter=1; elementcounter<= totalnoofelementsflaggedtorun; elementcounter++){
+			for(int browserCounter=1; browserCounter<= excelBrowserCount; browserCounter++){
 				
-				Element rootElementParameter=document.createElement("parameter");
 				
-				String[] flagElement=excel.flaggedMethod.get(elementcounter).toString().split(";");
 				
-				rootElementParameter.setAttribute("name", flagElement[0]);
-				rootElementParameter.setAttribute("value", flagElement[1]);
-				rootElementSuite.appendChild(rootElementParameter);
-			}
+			
+					
+			
 			// Type the root elements in the XML file
-			Element rootElementTest=document.createElement("test");
-			Element rootElementClass=document.createElement("classes");
-			Element childElementClass=document.createElement("class");
+				Element rootElementTest=document.createElement("test");
+				//rootElementTest.setAttribute("name", "testing");
 			
-			// Assign attribute to the root elements
-			childElementClass.setAttribute("name", "fotf_Config.Basedriver");
-			
-			Element rootElementgroups= document.createElement("methods");
-			
-			//Assign Attribute to the root elements
-			rootElementSuite.setAttribute("name", "SeleniumJavaFramework");
-			rootElementTest.setAttribute("name", "testing");
+			Element rootElementClass=document.createElement("classes");	
+
+			Element rootElementParameter=document.createElement("parameter");		
 			
 			// Append values to the root elements
-			rootElementSuite.appendChild(rootElementTest);
-			rootElementTest.appendChild(rootElementClass);
-			rootElementClass.appendChild(childElementClass);
-			childElementClass.appendChild(rootElementgroups);
-			document.appendChild(rootElementSuite);
+			rootElementSuite.appendChild(rootElementTest);		
 			
+			
+			
+			String[] browserflagElement=excel.flaggedparameter.get(browserCounter).toString().split("=");
+			rootElementParameter.setAttribute("name", "browser");
+			rootElementParameter.setAttribute("value", browserflagElement[0]);
+			rootElementTest.setAttribute("name", browserflagElement[0]);
+			rootElementTest.appendChild(rootElementParameter);
+			
+			//document.appendChild(rootElementSuite);	
+			rootElementParameter.appendChild(rootElementClass);	
+			
+			String element="include";			
+			
+			Element childElementClass=document.createElement("class");	
+			Element rootElementgroups= document.createElement("methods");
+			Element include = document.createElement(element);
+			
+
+			for(int elementclasscounter=1; elementclasscounter<= flaggedClassCount; elementclasscounter++){
+				childElementClass=document.createElement("class");
+				String flagclsElement=excel.flaggedClass.get(elementclasscounter).toString();
+				childElementClass.setAttribute("name", flagclsElement);
+				
+				rootElementgroups= document.createElement("methods");
 			// Obtain the column value flag = "Y" in a loop
-			for(int elementcounter=1; elementcounter<= totalnoofelementsflaggedtorun; elementcounter++){
-				String element="include";
-				Element em=document.createElement(element);
-				String[] flagElement=excel.flaggedMethod.get(elementcounter).toString().split(";");
-				em.setAttribute("name", flagElement[0]);
-				rootElementgroups.appendChild(em);
+			
+				for(elementcounter = 1; elementcounter <= totalnoofelementsflaggedtorun; elementcounter++){								
+					
+					String[] flagElement=excel.flaggedMethod.get(elementcounter).toString().split(":");
+					include = document.createElement(element);					
+					
+					//System.out.println(flagElement[0]+" --- "+flagclsElement);
+					if(flagElement[0].toString().equals(flagclsElement))
+					{
+						System.out.println(flagElement[0]+" --- "+flagclsElement);
+						include.setAttribute("name", flagElement[1]);
+						rootElementgroups.appendChild(include);
+					}
+				
+				}
+				childElementClass.appendChild(rootElementgroups);
+				rootElementClass.appendChild(childElementClass);
+			}
 			}
 			// Generate the file.
 			FileWriter fstream = new FileWriter("Switches\\testng.xml");

@@ -48,5 +48,6 @@
 	<classpathentry kind="lib" path="D:/Projects/FOTF-MediaCenter/src/lib_Files/SaxonLiaison.jar"/>
 	<classpathentry kind="lib" path="D:/Projects/FOTF-MediaCenter/src/lib_Files/activation.jar"/>
 	<classpathentry kind="lib" path="D:/Projects/FOTF-MediaCenter/src/lib_Files/jxl-2.6.12.jar"/>
+	<classpathentry kind="lib" path="D:/Projects/FOTF-MediaCenter/src/lib_Files/saxon8-dom.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

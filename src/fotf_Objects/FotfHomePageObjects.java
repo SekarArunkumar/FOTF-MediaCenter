@@ -26,7 +26,7 @@ public class FotfHomePageObjects extends Basedriver{
 	public static void home_logo(){
 
 		String actual_logo;
-		String expected_logo="site_header--logo_lg icon-logo-error";
+		String expected_logo="site_header--logo_lg icon-logo";
 		
 		actual_logo=logo.getAttribute("class");
 		try{
