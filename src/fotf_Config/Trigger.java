@@ -9,6 +9,6 @@ public class Trigger {
   @Test
   public void triggerProject() throws Exception {
 	  XmlUtil.createXml();
-	  XmlUtil.autoRunXml();
+	 // XmlUtil.autoRunXml();
   }
 }

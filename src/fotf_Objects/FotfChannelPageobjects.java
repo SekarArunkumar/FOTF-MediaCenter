@@ -28,7 +28,7 @@ public class FotfChannelPageobjects extends Basedriver{
 	@FindBy(xpath="html/body/div[2]/article/header/div[1]/div/ul/li[3]/a")
 	public static WebElement topic3;
 	
-	@FindBy(xpath="html/body/div[2]/article/div/div[1]/section/div/img")
+	@FindBy(xpath="html/body/div[1]/article/div/div[1]/section/div/a/img")
 	public static WebElement featured_img;
 	
 	public static void clickTopics(){
