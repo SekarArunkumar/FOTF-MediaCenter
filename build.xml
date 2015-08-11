@@ -84,17 +84,11 @@
 	    </target>
 
     <!-- run -->
-    <target name="ready" depends="compile">
-        <testng classpath="${test.classpath}:${test.dest}" suitename="suite1">	
-            <xmlfileset dir="${ws.home}" includes="testng.xml"/>
-        </testng>
-        <!--
-        <testng classpath="${test.classpath}:${test.dest}" groups="fast">
-            <classfileset dir="${test.dest}" includes="example1/*.class"/>
-        </testng>
-        -->
+    
+	<target name="ready">
+       <java classname="fotf_Config.Trigger" classpath="${test.dest}" classpathref="test.c" />
     </target>
-	
+    
 	<target name="run" depends="compile">
         <testng classpath="${test.classpath}:${test.dest}" suitename="suite1">	
             <xmlfileset dir="${ws.home}/Switches" includes="testng.xml"/>
@@ -138,7 +132,8 @@
 	<mail
 		tolist="smackduke@gmail.com,arunkumar.sekar@ecgroup.in,hemanathan.vijay@ecgroup.in"
 		from="arun86.sekar@gmail.com"
-		subject="Email subject"
+		subject="XSLT Reports for the FOTF with Log file"
+		message="Kindly unzip the 'output.zip' file to find the XSLT Automation Reports for the Focus on the Family.com and Please refer the log file for your reference. Thank you"
 		mailhost="smtp.gmail.com"
 		mailport="465"
 		ssl="true"
@@ -147,6 +142,11 @@
 		<attachments>
 		<fileset dir="${ws.home}/XSLT_Reports/">
 		<include name="**/*.zip"/>
+		</fileset>
+		</attachments>
+		<attachments>
+		<fileset dir="${ws.home}/">
+		<include name="**/logfile.log"/>
 		</fileset>
 		</attachments>
 	</mail>

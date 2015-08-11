@@ -38,15 +38,7 @@ public static WebDriver Driver=null;
 public static FotfHomePageObjects homepage;
 public static FotfChannelPageobjects channelObj;
 public static Logger log = Logger.getLogger(Basedriver.class.getName());
-//public static ExcelLib excel=new ExcelLib("Switches\\Flags.xls");
 
-
-/*public static void main(String args[]) throws Exception{
-	XmlUtil.createXml();
-	//XmlUtil.autoRunXml();
-	
-	
-}*/
 	@Parameters({ "browser" })
 	@BeforeTest
 	public static void config(String browser) throws Exception {
