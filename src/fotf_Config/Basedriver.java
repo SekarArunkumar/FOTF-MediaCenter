@@ -30,13 +30,13 @@ import org.testng.annotations.Test;
 import fotf_DDF.ExcelLib;
 import fotf_DDF.RD_XmlUtil;
 import fotf_DDF.XmlUtil;
-import fotf_Objects.FotfChannelPageobjects;
-import fotf_Objects.FotfHomePageObjects;
+import fotf_Objects.Obj_Channel;
+import fotf_Objects.Obj_Home;
 
 public class Basedriver extends Trigger{
 public static WebDriver Driver=null;
-public static FotfHomePageObjects homepage;
-public static FotfChannelPageobjects channelObj;
+public static Obj_Home homepage;
+public static Obj_Channel channelObj;
 public static Logger log = Logger.getLogger(Basedriver.class.getName());
 
 	@Parameters({ "browser" })
@@ -61,8 +61,10 @@ public static Logger log = Logger.getLogger(Basedriver.class.getName());
 		
 		Driver.get("http://www.focusonthefamily.com/");
 		Driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		homepage=new FotfHomePageObjects(Driver);
-		channelObj=new FotfChannelPageobjects(Driver);
+		
+		homepage=new Obj_Home(Driver);
+		channelObj=new Obj_Channel(Driver);
+		
 		log.info(" ");
 		log.info("******************************************************* ");
 		log.info("TestCase Execution Starts for FOTF Media Center Project");

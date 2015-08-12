@@ -15,8 +15,8 @@ import org.testng.annotations.Test;
 
 import fotf_Config.Basedriver;
 import fotf_DDF.XmlUtil;
-import fotf_Objects.FotfChannelPageobjects;
-import fotf_Objects.FotfHomePageObjects;
+import fotf_Objects.Obj_Channel;
+import fotf_Objects.Obj_Home;
 
 public class Homepage extends Basedriver{
 	
@@ -26,7 +26,6 @@ public class Homepage extends Basedriver{
 	@Test
 	public static void verify_fotf_logo(){
 		log.info("Testcase Execution starts for verify Operation on FOTF Home Page Content");
-		
 		homepage.home_logo();
 			
 		
