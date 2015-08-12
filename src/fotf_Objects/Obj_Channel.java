@@ -7,17 +7,17 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 
 import fotf_Config.Basedriver;
+import fotf_Operations.O_Channelpage;
 
-public class FotfChannelPageobjects extends Basedriver{
+public class Obj_Channel extends O_Channelpage{
 
-	public FotfChannelPageobjects(){
+	public Obj_Channel(){
 			
 	}
-	public FotfChannelPageobjects(WebDriver Driver){
+	public Obj_Channel(WebDriver Driver){
 		
 		PageFactory.initElements(Driver, this);
 	}
-	
 	
 	@FindBy(xpath="html/body/div[2]/article/header/div[1]/div/ul/li[1]/a")
 	public static WebElement topic1;
@@ -31,25 +31,8 @@ public class FotfChannelPageobjects extends Basedriver{
 	@FindBy(xpath="html/body/div[1]/article/div/div[1]/section/div/a/img")
 	public static WebElement featured_img;
 	
-	public static void clickTopics(){
-		topic1.click();
-		topic2.click();
-		topic3.click();
-	}
 	
-	// Verifying Featured Image content on channel page
-	public static void featuredimg(){
-		String expected_featured_img="channel_featured--image";
-		String actual_featured_img;
-		
-		actual_featured_img=featured_img.getAttribute("class");
-		try{
-			Assert.assertEquals(actual_featured_img, expected_featured_img);
-			log.info("Featured image content is available");
-		}
-		catch(AssertionError e){
-			log.error("Featured image content is not available");
-		}
-	}
+	
+	
 	
 }
